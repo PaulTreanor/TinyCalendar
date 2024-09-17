@@ -1,6 +1,12 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# TinyCalendar
+TinyCalendar is a browser extension that lets you quickly search for and open dates in Google Calendar. 
+
+I often need to check what day of the week a specific date in the future is, or see what date Friday in 2 weeks is. Google Calendar is very awkward and clunky for this quick little use case, but I still like Google Calendar as a source of truth for all my times and dates, so I made an 
+
+
 
 ## Dev resources 
+I 
 https://projects.wojtekmaj.pl/react-calendar/
 
 ## Getting Started
