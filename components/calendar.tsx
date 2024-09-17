@@ -1,12 +1,7 @@
-import { styled } from '@mui/material/styles';
 import { DateCalendar } from '@mui/x-date-pickers/DateCalendar';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import dayjs from 'dayjs';
-
-const StyledDateCalendar = styled(DateCalendar)({
-  // Add any custom styles here
-});
 
 export default function CalendarComponent() {
     const handleDateChange = (value: dayjs.Dayjs | null) => {
@@ -19,7 +14,7 @@ export default function CalendarComponent() {
 
     return (
         <LocalizationProvider dateAdapter={AdapterDayjs}>
-            <StyledDateCalendar 
+            <DateCalendar 
                 onChange={handleDateChange}
                 views={['day']}
             />
