@@ -6,7 +6,11 @@ export default function CalendarComponent() {
 
     return (
         <div>
-            <Calendar onChange={(value) => setDate(value as Date)} value={date} />
+            <Calendar 
+                onChange={(value) => setDate(value as Date)} 
+                value={date} 
+                minDetail="year"
+            />
         </div>
     );
 }
