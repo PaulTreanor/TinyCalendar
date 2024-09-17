@@ -1,5 +1,8 @@
 This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
 
+## Dev resources 
+https://projects.wojtekmaj.pl/react-calendar/
+
 ## Getting Started
 
 First, run the development server:

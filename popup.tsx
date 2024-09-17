@@ -1,12 +1,13 @@
 import { useState } from "react"
+import CalendarComponent from "./components/calendar"
+import 'react-calendar/dist/Calendar.css';
 
 function IndexPopup() {
-  const [data, setData] = useState("")
 
   return (
     <div
       style={{
-        padding: 16
+        padding: 20,
       }}>
       <h2>
         Welcome to your{" "}
@@ -15,7 +16,7 @@ function IndexPopup() {
         </a>{" "}
         Extension!
       </h2>
-      <input onChange={(e) => setData(e.target.value)} value={data} />
+      <CalendarComponent />
       <a href="https://docs.plasmo.com" target="_blank">
         View Docs
       </a>
