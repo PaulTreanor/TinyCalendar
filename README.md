@@ -1,8 +1,9 @@
 # TinyCalendar
 TinyCalendar is a browser extension that lets you quickly search for and open dates in Google Calendar. 
 
-I often need to check what day of the week a specific date in the future is, or see what date Friday in 2 weeks is. Google Calendar is very awkward and clunky for this quick little use case, but I still like Google Calendar as a source of truth for all my times and dates, so I made an 
+I sometimes need to check what day of the week a specific future date is, or see what date Friday in 2 weeks is. Google Calendar is awkward and clumsy to use so I built TinyCalendar. If you click on a date it opens that week up on Google Calendar. 
 
+I was inspired by the simplicity of [MenuBar Calendar](https://sindresorhus.com/menu-bar-calendar). 
 
 The extension is built using the [Plasmo React browser extension framework](https://github.com/PlasmoHQ/plasmo). 
 ### Running the extension locally
