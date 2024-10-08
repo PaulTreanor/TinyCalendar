@@ -4,9 +4,9 @@
 
 A browser extension to quickly find and open dates in Google Calendar. 
 
+- [YouTube demo](https://youtu.be/xO-aMgUmfS8)
 
 <img src="tinycalendar-demo.gif" alt="TinyCalendar Demo" width="600" />
-
 
 
 ### Running the extension locally
