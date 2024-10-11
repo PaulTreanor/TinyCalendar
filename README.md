@@ -19,16 +19,19 @@ npm install
 npm run dev
 ```
 
-Open your browser and load the appropriate development build. For example, if you are developing for the chrome browser, using manifest v3, use: `build/chrome-mv3-dev`.
-
-
 ### Making production build
 
+#### Chrome
 ```bash
 npm run build
 ```
 
-This should create a production bundle for your extension, ready to be zipped and published to the stores.
+#### Firefox
+```bash
+npm run build-firefox
+```
+
+The builds will be in the `build` folder.
 
 ### Running tests
 
